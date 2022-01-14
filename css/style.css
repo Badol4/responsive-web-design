@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+
+
+body{
+    background: #9F9F9F;
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+nav{
+    display: flex;
+    background-color: blue;
+    justify-content: space-evenly;
+}
+.icons img{
+    width: 50px;
+    height: 50px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.icons{
+    display: flex;
+    margin-left: 20px;
+    /* margin-top: 10px; */
+    align-items: center;
+}
+.navber{
+    display: flex;
+    align-items: center;
+    
+}
+ul{
+    display: flex;
+    
+    
+}
+.my_ideas{
+    color: white;
+    padding-left: 15px;
+}
+ul li {
+    margin-left: 20px;
+}
+.profile li{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+/* container */
+
+.player img{
+    width: 56px;
+    height: 56px;
+    
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.title{
+    font-size: 24px;
+    color: rgb(43, 74, 212);
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.container{
+    background: white;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    width: 870px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+    padding-left: 150px;
+
+   
+    
+}
+.players h3{
+    margin-left: 16px;
+}
+.Blog_athor a{
+    color: black;
+}
+.blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+
+}
+.blog{
+    display: flex;
+}
+.blog_info{
+    margin-left: 16px;
+}
+.blog_title{
+    font-size: 20px;
+    /* margin-top: 10px; */
+    /* padding-top: 10px; */
+    margin-bottom: 10px;
+}
+.Blog_athor{
+    color: #9f9f9f;
+    font-size: 16px;
+}
+.Blog_athor a{
+    text-decoration: none;
+    font-size: 16px;
+    color: blue;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+
+.blog{
+    margin-left: 70px;
+}
+/* anther */
+.course .course_banner img{
+    width: 224px;
+    height: 104px;
+}
+.color{
+    color: rgb(255, 255, 0);
+}
+.nai{
+    color: lightslategray;
+}
+.fa-star{
+    font-size: 12px;
+}
+.infom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    margin: 0 143px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-column-gap: 24px;
+}
+.star span{
+    margin-left: 5px;
+}
+.time{
+    background-color:rgb(235,182,120);
+    color: rgb(61, 36, 36);
+    border-radius: 45px;
+    width: 100px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.course_athor{
+    color: red;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+    
+}
+/* .timer{
+    padding-left: 10px;
+} */
+.one{
+    padding-left: 10px;
+}
+.course_title h3{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.end{
+    color: blue;
+}
+.ulline a:hover{
+    color: rgb(193, 197, 202);
+    transition: 0.4s;
+}
+
+
+@media only screen and (max-width:688px){
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .player{
+        flex-direction: column;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog{
+        display: flex;
+        flex-direction: column;
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .courses{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .infom{
+        display: flex;
+       padding-top: 20px;
+    }
+    .course{
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        align-items: center;
+    }
+    .course_title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div.infom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .course_banner{
+        margin-top: 20px;
+    }
+    .end{
+        margin-left: 60px;
+    }
+    .ulline{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    li{
+        padding: 20px;
+    }
+    
+}
